@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":app:androidTest" external.linked.project.path="$MODULE_DIR$/../../../app" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <flagArguments>
+            <flagArg name="noReflect" arg="true" />
+            <flagArg name="noStdlib" arg="true" />
+          </flagArguments>
+          <stringArguments>
+            <stringArg name="classpath">
+              <args>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/931818dd3a65928f50a930d31712d344/transformed/jetified-junit-1.1.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/5c05e9d6e641ee010bb61a784c103bc4/transformed/espresso-core-3.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/91d28eb9d450a5abddf611fe5ab9943c/transformed/databinding-runtime-7.2.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/989253a25af66529ab8468a4565dd961/transformed/jetified-viewbinding-7.2.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/470bfd067f91d63ef21c7910abf068dd/transformed/databinding-adapters-7.2.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/modules-2/files-2.1/androidx.databinding/databinding-common/7.2.2/cb53bd625b7a99cf218f46634d07d1886441288/databinding-common-7.2.2.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/c7acf734e28e926e931453b8c8a19ec2/transformed/jetified-databinding-ktx-7.2.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/f5619ac44e8853fb7afa7463aa15386f/transformed/runner-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/daaecff5d951132406dba00b0d80536e/transformed/jetified-junit-4.12.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/ff4ea18142230db9429cd0d1566f0138/transformed/jetified-hamcrest-integration-1.3.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/4db7869b1252c31e2029e0035a208cef/transformed/jetified-hamcrest-library-1.3.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/0b1ce21d8c4d53eb991fcadd5d1e16b2/transformed/jetified-hamcrest-core-1.3.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/61c9f3ffdec87558c2552257d0793d15/transformed/jetified-core-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/586637e80e9261b722cadc61f0f194e5/transformed/navigation-ui-ktx-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/4604ff5d2c0bbf6d45c8e65fdb7b9f4b/transformed/navigation-ui-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/9cb9894953dd546e2d0a51588d04663a/transformed/material-1.4.0-beta01-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/24658969226f7de07f7be2dc13b37d63/transformed/constraintlayout-2.0.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/a68048a37a825c61f5a20d61db3b0b24/transformed/appcompat-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/99f5da3fa1d3393be33dac412f1f59c7/transformed/navigation-fragment-ktx-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/8d2771847cc86e8c724787e105789f2e/transformed/navigation-fragment-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/0d42234d6b6f6eaeebd6711d56e349e0/transformed/jetified-fragment-ktx-1.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/a56d194c3a38397dec9ba6448677c72c/transformed/lifecycle-extensions-2.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/8c418411e49dbb251dd2385bf9971aba/transformed/legacy-support-v4-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/8e29142ebd8449666eec40f75825dee9/transformed/jetified-viewpager2-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/412012499246aa4543cfc6b1ce37cce9/transformed/fragment-1.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/559f1f49b22cdde6b398562cad29a10f/transformed/navigation-runtime-ktx-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/f8f1619ad6ab232160cbb6af821f64ad/transformed/navigation-runtime-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/312a528112080dcacaecdd9c775080ef/transformed/jetified-activity-ktx-1.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/1e3e0a17ecc7a7b13c858f6dc208fb23/transformed/navigation-common-ktx-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/deba8784a3dbd156efa6efec4008d54c/transformed/navigation-common-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/83ba0d5316d5b6d2909174266da85714/transformed/jetified-activity-1.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/f32aa99db05a48bfa888142822411c42/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/5b64545a9a1ae53d967a57cbc66b467f/transformed/jetified-core-ktx-1.3.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/ff1404f20b1167478f448e35064d001b/transformed/monitor-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/4ca5cc6d2dec154e18f133eee2b4305c/transformed/legacy-support-core-ui-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/3ba56ea4673e2906d0f20539c37dfad8/transformed/cursoradapter-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/7ae1082b91030520491667ac5b8308e1/transformed/jetified-appcompat-resources-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/8700c247cfdf56c86a0d3ae9f1b8c029/transformed/dynamicanimation-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/084c64f96eb5f7a0265bf04b9129536c/transformed/legacy-support-core-utils-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/ba3134605f9a2acc05bdc24a87b42f1d/transformed/jetified-lifecycle-livedata-ktx-2.3.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/f682af6f3916eae1166fd6b130aa941d/transformed/loader-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/4a7284e29cacbc8293e9459f068f4bb5/transformed/lifecycle-livedata-2.3.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/bb7dfbb1a47bd34bddf8267559aaad54/transformed/core-runtime-2.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/cf1db90c649ad3c48a7361839a5e38c3/transformed/jetified-lifecycle-process-2.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/2af4f1af27e28effcd593ba09fa5d814/transformed/jetified-lifecycle-service-2.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/6beadffa126f8761eca92fb7578b97a6/transformed/jetified-lifecycle-runtime-ktx-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/2b93a1c2ed670715a366d8522e5cc6a5/transformed/media-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/15335328094c6953a91d739b0ea36ae5/transformed/vectordrawable-animated-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/3f13553eec76ceeac8f550fa1ab57222/transformed/vectordrawable-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/883b6113505481c538b63efbd446713c/transformed/viewpager-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/21629bbefca90a2f435a4032fe42315d/transformed/swiperefreshlayout-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/0f503872b2c28ae31a3a5b591e2734d4/transformed/asynclayoutinflater-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/633ef07dc1f67e9a6452df3a323c7947/transformed/slidingpanelayout-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/930d8a59fb26a52e9cbe7baf096cdf45/transformed/drawerlayout-1.1.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/34ca24d0a63f38a5bcf093b4f6304725/transformed/coordinatorlayout-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/df3d43eb58d16965508ac8618c6110bc/transformed/recyclerview-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/2aec7b74a6f9d12552e8e3a210a9b731/transformed/customview-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/153a080209c5e3547f0dc7368f6dc48b/transformed/transition-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/346c7d1e08604e9a1782f9434ba87d8b/transformed/core-1.8.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/d9ab63cd961cf9580759eeb71a15f869/transformed/lifecycle-runtime-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/e459cb3cced30165fb3394654a2b0a05/transformed/jetified-lifecycle-livedata-core-ktx-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/1470c6fd14e7cfa0dc681ad15bfe1334/transformed/lifecycle-livedata-core-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.5.1/1fdb7349701e9cf2f0a69fc10642b6fef6bb3e12/lifecycle-common-2.5.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/befdf48c893c208e34f8401e465c6279/transformed/interpolator-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/9b99778557c3260149600262f8f2ba0c/transformed/documentfile-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/9f68033a4aca2accd15f0f418eeb6aeb/transformed/localbroadcastmanager-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/af6e513925692d4f57953a3907799fa6/transformed/print-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/9572364c7f07b1844bb5c6564e6ba419/transformed/jetified-collection-ktx-1.1.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/41080394b08ea88c21877549937ca60d/transformed/versionedparcelable-1.1.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/e9a6459786a8f6b5b919d2e25a8cdbb0/transformed/cardview-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/c06cda15f1f5d5c484b633d80ac84279/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/cab3e64079a8717414c9dde5d66fb13f/transformed/lifecycle-viewmodel-2.5.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/d9a4bc2b809cb96f4b7f93b8cadfa143/transformed/jetified-savedstate-ktx-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/06af4dd953df7e9b13cee2a138bdc3e4/transformed/jetified-savedstate-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/1ce140a032081da97504a4692f02375b/transformed/jetified-kxml2-2.3.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/0ba04b1b273f030466f04ba1f5c3f434/transformed/espresso-idling-resource-3.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/cca34150989c8e9f0458107ece5b191c/transformed/jetified-javawriter-2.1.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/35b99de6fa83aeddb9d6ebe74c8dbf36/transformed/jetified-javax.inject-1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/b7a646d6177e55393edd86e03f46a94b/transformed/jetified-jsr305-2.0.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/47a5831715fdb00c7db70f5399c38b0c/transformed/jetified-kotlin-android-extensions-runtime-1.7.10.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/cd34c469beb1b30a496c9b70f5222b67/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/a30b2e326ae6e737cec8bfdeb53119af/transformed/jetified-kotlinx-coroutines-android-1.6.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/a5b8a4aef5ab01c3c64f5d2b81e1ab6e/transformed/jetified-kotlin-stdlib-jdk8-1.6.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/e4bc0120508fdfbdd2f3c291cf684af1/transformed/jetified-kotlin-stdlib-jdk7-1.6.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/f1fda68ed9791e80f44827716a33cb57/transformed/jetified-timber-4.7.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/b34f2d679d5f12807e4f6d1e7ac3b19d/transformed/jetified-kotlin-stdlib-1.7.10.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/2.0.1/30988fe2d77f3fe3bf7551bb8a8b795fad7e7226/constraintlayout-solver-2.0.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/e677d10920cf6f06255c1a3554510ac5/transformed/jetified-annotations-16.0.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/a4d816f414d338221b10758bb3a79784/transformed/jetified-kotlin-stdlib-common-1.7.10.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/transforms-3/99c34b0125890941a25019463d22ea68/transformed/jetified-annotation-experimental-1.1.0-api.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-33/android.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
+              </args>
+            </stringArg>
+            <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debugAndroidTest" />
+            <stringArg name="jvmTarget" arg="1.8" />
+            <stringArg name="moduleName" arg="app_debug" />
+            <stringArg name="apiVersion" arg="1.7" />
+            <stringArg name="languageVersion" arg="1.7" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="friendPaths">
+              <args>
+                <arg>$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug</arg>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes</arg>
+                <arg>$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debug</arg>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_app_classes_jar/debug/classes.jar</arg>
+              </args>
+            </arrayArg>
+            <arrayArg name="pluginClasspaths">
+              <args>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.7.10/6f72eaede229ab1f700f8a3583f7bef832b56f48/kotlin-android-extensions-1.7.10.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.7.10/909803167c98606fcf22b4c848647c68e351d48d/kotlin-compiler-embeddable-1.7.10.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.7.10/165e600dfea6185cf5efa700756294cc4904dbeb/kotlin-reflect-1.7.10.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.7.10/d2abf9e77736acc4450dc4a3f707fa2c10f5099d/kotlin-stdlib-1.7.10.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.7.10/c99c87a6988d8fd8d5142e9ed5c9f34a7cf561ee/kotlin-script-runtime-1.7.10.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.7.10/3a9f7aef7080d3ae63126cbba4f827ed664f32fa/kotlin-daemon-embeddable-1.7.10.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20200330/3afb14d5f9ceb459d724e907a21145e8ff394f02/trove4j-1.0.20200330.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.6.0/330f2244e9030119ab3030fc3fededc86713d9cc/jna-5.6.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.7.10/bac80c520d0a9e3f3673bc2658c6ed02ef45a76a/kotlin-stdlib-common-1.7.10.jar</arg>
+                <arg>$MODULE_DIR$/../../../../andfun-kotlin-android-trivia-starter-code/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
+              </args>
+            </arrayArg>
+            <arrayArg name="pluginOptions">
+              <args>
+                <arg>plugin:org.jetbrains.kotlin.android:experimental=false</arg>
+                <arg>plugin:org.jetbrains.kotlin.android:enabled=true</arg>
+                <arg>plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap</arg>
+              </args>
+            </arrayArg>
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/main/res;file://$MODULE_DIR$/../../../app/src/debug/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/debug;file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/androidTest/res;file://$MODULE_DIR$/../../../app/src/androidTestDebug/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../app/build/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/aidl_source_output_dir/debugAndroidTest/out" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debugAndroidTest/out" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/renderscript_source_output_dir/debugAndroidTest/out" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/res/resValues/androidTest/debug" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/res/rs/androidTest/debug" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/androidTest/debug" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debugAndroidTest" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debugAndroidTest" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTest">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTest/java" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTestDebug" />
+    <orderEntry type="jdk" jdkName="Android API 33, extension level 3 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="ShoeStore.app.main" scope="TEST" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-common:2.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.sf.kxml:kxml2:2.3.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup:javawriter:2.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-library:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-integration:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.findbugs:jsr305:2.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:databinding-common:7.2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.7.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:16.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.constraintlayout:constraintlayout-solver:2.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.collection:collection-ktx:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.ext:junit:1.1.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:core:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:monitor:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-core:3.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:runner:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-idling-resource:3.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:viewbinding:7.2.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:databinding-runtime:7.2.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:databinding-adapters:7.2.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:databinding-ktx:7.2.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.3.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-process:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-service:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.appcompat:appcompat:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core:1.8.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation-experimental:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.fragment:fragment:1.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.activity:activity:1.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core-ktx:1.3.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.savedstate:savedstate:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.customview:customview:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.appcompat:appcompat-resources:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.drawerlayout:drawerlayout:1.1.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.material:material:1.4.0-beta01@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.cardview:cardview:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.constraintlayout:constraintlayout:2.0.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.dynamicanimation:dynamicanimation:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.documentfile:documentfile:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.recyclerview:recyclerview:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.transition:transition:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.viewpager2:viewpager2:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-extensions:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.jakewharton.timber:timber:4.7.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-v4:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.media:media:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-ktx:2.3.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-fragment-ktx:2.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-fragment:2.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.fragment:fragment-ktx:1.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.activity:activity-ktx:1.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.savedstate:savedstate-ktx:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-runtime:2.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-common:2.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-runtime-ktx:2.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-common-ktx:2.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-ui-ktx:2.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-ui:2.5.1@aar" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="ShoeStore.app.main" />
+</module>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_anchorGravity="top">
+
+    <!--    Linear Layout is good for simple design with two TextViews and one Button -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/instruction2"
+        android:gravity="top|center_horizontal"
+        android:orientation="vertical"
+        tools:context=".screens.InstructionsFragment">
+
+
+        <TextView
+            android:id="@+id/instructions_title"
+            style="@style/title_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="103dp"
+            android:text="@string/instructions_title"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.061" />
+
+        <TextView
+            android:id="@+id/instructions_description"
+            style="@style/description_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/instructions_description"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/instructions_title" />
+
+        <Button
+            android:id="@+id/instructions_button"
+            android:layout_width="314dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_login"
+            android:text="@string/instructions_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/instructions_description"
+            app:layout_constraintVertical_bias="0.074" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
